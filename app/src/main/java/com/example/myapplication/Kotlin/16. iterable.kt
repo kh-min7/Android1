@@ -28,7 +28,7 @@ fun main(args:Array<String>){
     }
 
     // 반복하는 방법 (3)
-    a.forEach{ it -> Int
+    a.forEach{it -> Int
         println(it)
     }
 
