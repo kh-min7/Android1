@@ -13,7 +13,7 @@ var number100: Int = 10
 fun main(args: Array<String>){
     println(number100)
 
-    val test = Test()
+    val test = Test("민")
     test.name
     test.testFun()
     println(number100)
@@ -21,7 +21,7 @@ fun main(args: Array<String>){
     fun testFun2(){
         var gender: String = "male"
     }
-    gender
+//    gender
 }
 
 class Test(var name: String){
@@ -33,6 +33,6 @@ class Test(var name: String){
 
     fun testFun2(){
         name
-        birth
+//        birth
     }
 }
