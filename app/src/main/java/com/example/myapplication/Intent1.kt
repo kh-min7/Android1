@@ -22,17 +22,17 @@ class Intent1 : AppCompatActivity() {
 //            startActivity(intent)
 
 
-//            val intent2 = Intent(this@Intent1, Intent2::class.java)
-//            // apply
-//            intent2.apply{
-//                this.putExtra("number1", 3)
-//                this.putExtra("number2", 4)
-//            }
-//            // intent2에서 전달한거만 받음
-//            // startActivity(intent2)
-//
-//            // 리턴을 받는 요청
-//            startActivityForResult(intent2, 200)
+            val intent2 = Intent(this@Intent1, Intent2::class.java)
+            // apply
+            intent2.apply{
+                this.putExtra("number1", 3)
+                this.putExtra("number2", 4)
+            }
+            // intent2에서 전달한거만 받음
+            // startActivity(intent2)
+
+            // 리턴을 받는 요청
+            startActivityForResult(intent2, 200)
 
             // 암시적 인텐트
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"))
