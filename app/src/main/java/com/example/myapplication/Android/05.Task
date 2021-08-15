@@ -7,11 +7,11 @@ Task -> Activity
     - 햄버거처럼 아래에서 위로 쌓이는 것
     - Task가 쌓인다
 
-ex)                                             A
-A  ---->  B  -----> C  ----->  B  ----> A  ---> B
-          A         B          A        B
-                    A                   A
-
+ex)
+A  ---->  B  -----> C  ----->  B
+          A         B          A
+                    A
+                          
 켜지는 방법을 자체 속성으로 가지고 있는 경우
 -> launchMode
 
