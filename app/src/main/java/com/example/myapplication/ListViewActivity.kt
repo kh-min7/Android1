@@ -27,7 +27,7 @@ class ListViewActivity : AppCompatActivity() {
             val carName = (adapter.getItem(position) as CarForList).name
             val carEngine = (adapter.getItem(position) as CarForList).engine
 
-            Toast.makeText(this@ListViewActivity, carName + "" + carName + carEngine, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@ListViewActivity, carName + " " + carEngine, Toast.LENGTH_SHORT).show()
         }
     }
 }
