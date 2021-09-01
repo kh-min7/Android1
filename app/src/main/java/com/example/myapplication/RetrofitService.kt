@@ -19,5 +19,4 @@ interface RetrofitService{
     fun createStudentEasy(
         @Body person: PersonFromServer
     ): Call<PersonFromServer>
-
 }
